@@ -15,7 +15,6 @@ I'm a software developer with a strong passion for creating visually appealing a
 <p> 
   <a href="https://www.facebook.com/ahmed.deifallah.158966"><img
     src="https://img.shields.io/badge/-Facebook-3b5998?style=flat&logo=facebook&logoColor=white" alt="Facebook"></a>
-
 <a href="https://www.instagram.com/abo_defallah?igsh=MWxtcmNlNDAwdWN4cA=="><img
     src="https://img.shields.io/badge/-Instagram-d62976?style=flat&logo=instagram&logoColor=white"
     alt="Facebook"></a>
