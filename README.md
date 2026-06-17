@@ -1,65 +1,41 @@
-<h1 align="center">Hi, I'm Ahmed Deifallah  👋</h1>
-<h3 align="center">Web Developer 💻 | Java Programmer ☕</h3>
-## 🚀 About Me
-```java
-public class AhmedDeifallah {
-    public static void main(String[] args) {
-        String role = "Web Developer & Java Programmer";
-        String[] coreSkills = {"HTML5", "CSS3", "Java (OOP)", "Git & GitHub"};
-        String goal = "Creating responsive web pages & clean backend structures";
-        
-        System.out.println("Building the digital world with code!");
-    }
-class AhmedDeifallah {
-  String role = "Web Developer & Java Programmer";
-  String language = "Arabic";
-  String[] skills = {
-    "HTML5 & CSS3",
-    "Java (OOP)",
-    "Responsive Web Design",
-    "Git & GitHub",
-    "Clean Code Structure"
-  };
-}
-```
-## 🔥 Highlights
-- 💻 Building responsive, modern, and user-friendly web pages
-- ☕ Crafting robust applications and solving logic problems using **Java**
-- 🎨 Creating neat layouts with attention to clean **UI/UX**
-- 📦 Making clean and well-structured code open-source on GitHub
----
-## 🧰 Tech Toolbox
-<p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-  <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://skillicons.dev/icons?i=html,css,java,vscode,github,git" />
+<img align="right" src="https://raw.githubusercontent.com/mohamedelkashef15/mohamedelkashef15/main/github-profile.png" width="30%">
+<h1>
+  Hi There I'm Mohamed Elkashef 
+  <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+</h1>
+<p>
+I'm a software developer with a strong passion for creating visually appealing and user-friendly websites. 
 </p>
----
-## 🔥 What I Do / ماذا أفعل
-* 👨‍💻 أطور واجهات مستخدم متجاوبة وأنيقة باستخدام **HTML5** و **CSS3**
-* ☕ أبني برمجيات وحلول هيكلية متينة باستخدام لغة **Java (OOP)**
-* 🛠️ أكتب كوداً نظيفاً ومنظماً يسهل فهمه وتعديله
-* 🚀 أتعلم باستمرار لدمج تقنيات الويب الحديثة في مشاريعي
----
-# 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=ahmaddef088-sys&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10" width="48%" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=ahmaddef088-sys&theme=tokyonight&hide_border=true&border_radius=10" width="48%" />
+
+- 👨‍💻 I’m currently working on web development technologies like JavaScript & React.
+- 📚 I’m currently learning about Frontend and Backend technologies.
+- 🎯 Future Goals: Learn more web technologies - Create awesome websites.
+  
+- 📫 Social links
+<p>
+<a href="https://www.facebook.com/mohamedelkashef15/"><img
+    src="https://img.shields.io/badge/-Facebook-3b5998?style=flat&logo=facebook&logoColor=white" alt="Facebook"></a>
+<a href="https://www.linkedin.com/in/mohamedelkashef/"><img
+    src="https://img.shields.io/badge/-Linkedin-0072b1?style=flat&logo=linkedin&logoColor=white" alt="Linkedin"></a>
+<a href="https://www.instagram.com/mohamedelkashef15/"><img
+    src="https://img.shields.io/badge/-Instagram-d62976?style=flat&logo=instagram&logoColor=white"
+    alt="Facebook"></a>
+<a href="https://www.youtube.com/c/MohamedElkashef15"><img
+    src="https://img.shields.io/badge/-YouTube-c4302b?style=flat&logo=youtube&logoColor=white" alt="Facebook"></a>
 </p>
----
-## 📬 تواصل معايا
-## 🎯 My Focus / مجالات اهتمامي
-* 💬 **Telegram:** [@AhmedDefallah](https://t.me/AhmedDefallah)
-* ✉️ **Email:** [ahmaddef088@gmail.com](mailto:ahmaddef088@gmail.com)
-- ✅ **Responsive Front-End** using HTML5 & CSS3
-- ✅ **Object-Oriented Programming** with Java
-- ✅ **Clean Code** principles & practices
-- ✅ Productivity tips for **VS Code & Git**
----
-## 🧠 Fun Fact
-## ⚡️ Motto
-> لما تعدل سطر واحد في الـ CSS عشان تظبط عنصر، وتلاقي الصفحة كلها خربت... ده مش خطأ برمجي، ده سحر وتأثير الفراشة البرمجية! 🦋😂
-> **"Building clean, modern, and efficient web solutions, one line of code at a time."**
+
+### 🛠 &nbsp;Technologies that I work with
+![HTML5](https://img.shields.io/badge/-HTML5-000000?style=flat&logo=html5)
+![CSS](https://img.shields.io/badge/-CSS-000000?style=flat&logo=css)
+![JavaScript](https://img.shields.io/badge/-JavaScript-000000?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/-TypeScript-000000?style=flat&logo=typescript)
+![ReactJs](https://img.shields.io/badge/-ReactJs-000000?style=flat&logo=react)
+![WordPress](https://img.shields.io/badge/-WordPress-000000?style=flat&logo=wordpress)
+![Python](https://img.shields.io/badge/-Python-000000?style=flat&logo=python)
+
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelkashef15&hide_progress=true) -->
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelkashef15&layout=compact)
+<br>
+<a href="https://komarev.com/ghpvc/?username=mohamedelkashef15&style=for-the-badge">
+    <img src="https://komarev.com/ghpvc/?username=mohamedelkashef15&style=for-the-badge">
+</a>
