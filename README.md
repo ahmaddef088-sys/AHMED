@@ -22,3 +22,20 @@ public class AhmedDeifallah {
         System.out.println("Building the digital world with code!");
     }
 }
+
+🧰 Tech Toolbox
+
+🔥 What I Do / ماذا أفعل
+👨‍💻 أطور واجهات مستخدم متجاوبة وأنيقة باستخدام HTML5 و CSS3
+☕ أبني برمجيات وحلول هيكلية متينة باستخدام لغة Java (OOP)
+🛠️ أكتب كوداً نظيفاً ومنظماً يسهل فهمه وتعديله
+🚀 أتعلم باستمرار لدمج تقنيات الويب الحديثة في مشاريعي
+📊 GitHub Stats
+
+📬 تواصل معايا
+💬 Telegram: @AhmedDefallah
+✉️ Email: ahmaddef088@gmail.com
+🧠 Fun Fact
+لما تعدل سطر واحد في الـ CSS عشان تظبط عنصر، وتلاقي الصفحة كلها خربت... ده مش خطأ برمجي، ده سحر وتأثير الفراشة البرمجية! 🦋😂
+
+
