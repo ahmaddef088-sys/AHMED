@@ -16,12 +16,14 @@
 ## 🚀 About Me
 
 ```java
-public class AhmedDeifallah {
-    public static void main(String[] args) {
-        String role = "Web Developer & Java Programmer";
-        String[] coreSkills = {"HTML5", "CSS3", "Java (OOP)", "Git & GitHub"};
-        String goal = "Creating responsive web pages & clean backend structures";
-        
-        System.out.println("Building the digital world with code!");
-    }
+class AhmedDeifallah {
+  String role = "Web Developer & Java Programmer";
+  String language = "Arabic";
+  String[] skills = {
+    "HTML5 & CSS3",
+    "Java (OOP)",
+    "Responsive Web Design",
+    "Git & GitHub",
+    "Clean Code Structure"
+  };
 }
