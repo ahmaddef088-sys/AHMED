@@ -12,7 +12,16 @@ I'm a software developer with a strong passion for creating visually appealing a
 - 🎯 Future Goals: Learn more web technologies - Create awesome websites.
   
 - 📫 Social links
-<p>
+<p> 
+  <a href="https://www.facebook.com/ahmed.deifallah.158966"><img
+    src="https://img.shields.io/badge/-Facebook-3b5998?style=flat&logo=facebook&logoColor=white" alt="Facebook"></a>
+
+<a href="https://www.instagram.com/abo_defallah?igsh=MWxtcmNlNDAwdWN4cA=="><img
+    src="https://img.shields.io/badge/-Instagram-d62976?style=flat&logo=instagram&logoColor=white"
+    alt="Facebook"></a>
+<a href="https://www.youtube.com/@Ahmed_defallah1"><img
+    src="https://img.shields.io/badge/-YouTube-c4302b?style=flat&logo=youtube&logoColor=white" alt="Facebook"></a>
+</p>
 </p>
 
 ### 🛠 &nbsp;Technologies that I work with
