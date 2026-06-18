@@ -1,0 +1,16 @@
+{
+  "name": "ahmed-defalla-portfolio",
+  "version": "1.0.0",
+  "description": "Frontend Web Developer Portfolio for Ahmed Defalla",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx -y browser-sync start --server --files \"index.html, style.css, script.js\""
+  },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "developer"
+  ],
+  "author": "Ahmed Defalla",
+  "license": "ISC"
+}
