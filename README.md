@@ -1,4 +1,4 @@
-<img align="right" src="https://raw.githubusercontent.com/AHMED/AHMED/main/github-profile.png" width="30%">
+<img align="right" src="https://raw.githubusercontent.com/ahmaddef088-sys/ahmaddef088-sys/main/github-profile.png" width="30%">
 <h1>
   Hi There I'm Ahmed Defallah
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
@@ -34,6 +34,6 @@ I'm a software developer with a strong passion for creating visually appealing a
 <!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelkashef15&hide_progress=true) -->
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=mohamedelkashef15&layout=compact)
 <br>
-<a href="https://komarev.com/ghpvc/?username=AHMED&style=for-the-badge">
-    <img src="https://komarev.com/ghpvc/?username=AHMED&style=for-the-badge">
+<a href="https://komarev.com/ghpvc/?username=ahmaddef088-sys&style=for-the-badge">
+    <img src="https://komarev.com/ghpvc/?username=ahmaddef088-sys&style=for-the-badge">
 </a>
