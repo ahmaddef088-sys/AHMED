@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Coffee House - Best Coffee Experience. Explore our menu of hot beverages, cold drinks, desserts, and special combos." />
+  <title>Coffee House - Best Coffee Experience</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-brand">
+      <div class="nav-logo">
+        <i class="fa-solid fa-mug-hot"></i>
+      </div>
+      <span class="nav-title">Coffee</span>
+    </div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+      <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+      <li><a href="#menu" class="nav-link" data-section="menu">Menu</a></li>
+      <li><a href="#testimonials" class="nav-link" data-section="testimonials">Testimonials</a></li>
+      <li><a href="#gallery" class="nav-link" data-section="gallery">Gallery</a></li>
+      <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-subtitle">Best Coffee</p>
+      <h1 class="hero-title">Make your day great with our special coffee!</h1>
+      <p class="hero-desc">Welcome to our coffee paradise, where every bean tells a story and every cup sparks joy.</p>
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary" id="orderNowBtn">Order Now</a>
+        <a href="#contact" class="btn btn-outline" id="contactUsBtn">Contact Us</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/coffee-hero-section.png" alt="Splashing coffee cup with beans" class="hero-img" />
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image-wrap">
+        <div class="about-img-circle">
+          <img src="images/about-image.jpg" alt="People enjoying coffee at Coffee House" id="aboutImg" />
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">10+</span>
+          <span class="badge-text">Years of Excellence</span>
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="section-title dark">ABOUT US</h2>
+        <div class="title-underline orange"></div>
+        <p class="about-desc">
+          At Coffee House in Berndorf, Germany, we pride ourselves on being a
+          go-to destination for coffee lovers and conversation seekers alike.
+          We're dedicated to providing an exceptional coffee experience in a
+          cozy and inviting atmosphere, where guests can relax, unwind, and
+          enjoy their time in comfort.
+        </p>
+        <div class="about-socials">
+          <a href="#" class="social-icon" aria-label="Facebook" id="fbLink"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#" class="social-icon" aria-label="Instagram" id="igLink"><i class="fa-brands fa-instagram"></i></a>
+          <a href="#" class="social-icon" aria-label="X (Twitter)" id="xLink"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MENU SECTION ===== -->
+  <section class="menu" id="menu">
+    <h2 class="section-title light">OUR MENU</h2>
+    <div class="title-underline orange centered"></div>
+
+    <div class="menu-grid">
+
+      <div class="menu-card" id="menuCard1">
+        <div class="menu-card-img">
+          <img src="images/hot-beverages.png" alt="Hot Beverages - Cappuccino with latte art" />
+        </div>
+        <h3 class="menu-card-title">Hot Beverages</h3>
+        <p class="menu-card-desc">Wide range of Steaming hot coffee to make you fresh and light.</p>
+      </div>
+
+      <div class="menu-card" id="menuCard2">
+        <div class="menu-card-img">
+          <img src="images/cold-beverages.png" alt="Cold Beverages - Iced coffee drinks" />
+        </div>
+        <h3 class="menu-card-title">Cold Beverages</h3>
+        <p class="menu-card-desc">Creamy and frothy cold coffee to make you cool.</p>
+      </div>
+
+      <div class="menu-card" id="menuCard3">
+        <div class="menu-card-img">
+          <img src="images/refreshment.png" alt="Refreshment - Strawberry iced drink" />
+        </div>
+        <h3 class="menu-card-title">Refreshment</h3>
+        <p class="menu-card-desc">Fruit and icy refreshing drink to make feel refresh.</p>
+      </div>
+
+      <div class="menu-card" id="menuCard4">
+        <div class="menu-card-img">
+          <img src="images/special-combo.png" alt="Special Combos - Burger and fries meal" />
+        </div>
+        <h3 class="menu-card-title">Special Combos</h3>
+        <p class="menu-card-desc">Your favorite eating and drinking combations.</p>
+      </div>
+
+      <div class="menu-card" id="menuCard5">
+        <div class="menu-card-img">
+          <img src="images/desserts.png" alt="Dessert - Strawberry dessert" />
+        </div>
+        <h3 class="menu-card-title">Dessert</h3>
+        <p class="menu-card-desc">Satiate your palate and take you on a culinary treat.</p>
+      </div>
+
+      <div class="menu-card" id="menuCard6">
+        <div class="menu-card-img">
+          <img src="images/burger-frenchfries.png" alt="Burger and French Fries" />
+        </div>
+        <h3 class="menu-card-title">Burger &amp; French Fries</h3>
+        <p class="menu-card-desc">Quick bites to satisfy your small size hunger.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS SECTION ===== -->
+  <section class="testimonials" id="testimonials">
+    <h2 class="section-title dark">TESTIMONIALS</h2>
+    <div class="title-underline orange centered"></div>
+
+    <div class="testimonials-slider-wrap">
+      <button class="slider-arrow left" id="prevSlide" aria-label="Previous testimonials">&#8249;</button>
+
+      <div class="testimonials-track" id="testimonialsTrack">
+
+        <div class="testimonial-slide" id="slide0">
+          <div class="testimonial-card">
+            <div class="test-avatar">
+              <img src="images/user-1.jpg" alt="Sarah Johnson" />
+            </div>
+            <h4 class="test-name">Sarah Johnson</h4>
+            <p class="test-quote">"Loved the French roast. Perfectly balanced and rich. Will order again!"</p>
+          </div>
+          <div class="testimonial-card center-card">
+            <div class="test-avatar">
+              <img src="images/user-2.jpg" alt="James Wilson" />
+            </div>
+            <h4 class="test-name">James Wilson</h4>
+            <p class="test-quote">"Great espresso blend! Smooth and bold flavor. Fast shipping too!"</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="test-avatar">
+              <img src="images/user-3.jpg" alt="Michael Brown" />
+            </div>
+            <h4 class="test-name">Michael Brown</h4>
+            <p class="test-quote">"Fantastic mocha flavor. Fresh and aromatic. Quick shipping!"</p>
+          </div>
+        </div>
+
+        <div class="testimonial-slide" id="slide1">
+          <div class="testimonial-card">
+            <div class="test-avatar">
+              <img src="images/user-4.jpg" alt="Emily Davis" />
+            </div>
+            <h4 class="test-name">Emily Davis</h4>
+            <p class="test-quote">"Amazing atmosphere and even better coffee! My go-to place every morning."</p>
+          </div>
+          <div class="testimonial-card center-card">
+            <div class="test-avatar">
+              <img src="images/user-5.jpg" alt="David Lee" />
+            </div>
+            <h4 class="test-name">David Lee</h4>
+            <p class="test-quote">"Best cold brew in town! The baristas are friendly and professional."</p>
+          </div>
+          <div class="testimonial-card">
+            <div class="test-avatar">
+              <img src="images/user-1.jpg" alt="Anna Smith" />
+            </div>
+            <h4 class="test-name">Anna Smith</h4>
+            <p class="test-quote">"Cozy ambiance and incredible drinks. I visit every weekend!"</p>
+          </div>
+        </div>
+
+      </div>
+
+      <button class="slider-arrow right" id="nextSlide" aria-label="Next testimonials">&#8250;</button>
+    </div>
+
+    <div class="slider-dots" id="sliderDots">
+      <button class="dot active" data-slide="0" aria-label="Slide 1"></button>
+      <button class="dot" data-slide="1" aria-label="Slide 2"></button>
+    </div>
+  </section>
+
+  <!-- ===== GALLERY SECTION ===== -->
+  <section class="gallery" id="gallery">
+    <h2 class="section-title light">OUR GALLERY</h2>
+    <div class="title-underline orange centered"></div>
+    <div class="gallery-grid">
+      <div class="gallery-item large" id="gal1">
+        <img src="images/gallery-1.jpg" alt="Coffee shop interior" />
+        <div class="gallery-overlay"><span>Coffee Vibes</span></div>
+      </div>
+      <div class="gallery-item" id="gal2">
+        <img src="images/gallery-2.jpg" alt="Espresso coffee" />
+        <div class="gallery-overlay"><span>Espresso Art</span></div>
+      </div>
+      <div class="gallery-item" id="gal3">
+        <img src="images/gallery-3.jpg" alt="Coffee latte art" />
+        <div class="gallery-overlay"><span>Latte Art</span></div>
+      </div>
+      <div class="gallery-item" id="gal4">
+        <img src="images/gallery-4.jpg" alt="Coffee beans" />
+        <div class="gallery-overlay"><span>Premium Beans</span></div>
+      </div>
+      <div class="gallery-item" id="gal5">
+        <img src="images/gallery-5.jpg" alt="Barista making coffee" />
+        <div class="gallery-overlay"><span>Expert Baristas</span></div>
+      </div>
+      <div class="gallery-item" id="gal6">
+        <img src="images/gallery-6.jpg" alt="Coffee shop ambiance" />
+        <div class="gallery-overlay"><span>Cozy Atmosphere</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact" id="contact">
+    <div class="contact-container">
+      <div class="contact-info">
+        <h2 class="section-title light">GET IN TOUCH</h2>
+        <div class="title-underline orange"></div>
+        <p class="contact-desc">Visit us at Coffee House in Berndorf, Germany. We'd love to welcome you for a perfect cup of coffee.</p>
+        <div class="contact-details">
+          <div class="contact-item" id="contactAddress">
+            <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+            <div>
+              <h4>Address</h4>
+              <p>Coffee House, Berndorf, Germany</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contactPhone">
+            <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+            <div>
+              <h4>Phone</h4>
+              <p>+49 123 456 7890</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contactEmail">
+            <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+            <div>
+              <h4>Email</h4>
+              <p>hello@coffeehouse.de</p>
+            </div>
+          </div>
+          <div class="contact-item" id="contactHours">
+            <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+            <div>
+              <h4>Working Hours</h4>
+              <p>Mon - Sun: 7:00 AM – 10:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="contactName" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="contactEmailInput" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="contactSubject" name="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea id="contactMessage" name="message" placeholder="Your Message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary full-width" id="submitContact">Send Message</button>
+          <p class="form-success" id="formSuccess">✅ Message sent successfully! We'll get back to you soon.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="nav-logo"><i class="fa-solid fa-mug-hot"></i></div>
+        <span class="nav-title">Coffee</span>
+      </div>
+      <p class="footer-tagline">Where every bean tells a story and every cup sparks joy.</p>
+      <div class="footer-socials">
+        <a href="#" aria-label="Facebook" id="footerFb"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" aria-label="Instagram" id="footerIg"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" aria-label="X" id="footerX"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#" aria-label="YouTube" id="footerYt"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Coffee House. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
