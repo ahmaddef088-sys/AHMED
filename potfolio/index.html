@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahmed Defallah - Frontend Web Developer Portfolio</title>
+    <!-- Meta tags for SEO -->
+    <meta name="description"
+        content="Professional portfolio of Ahmed Defallah, a frontend web developer passionate about creating visually stunning and highly functional web applications.">
+    <meta name="keywords" content="Mohamed Elkashef, Web Developer, Frontend Developer, HTML, CSS, JavaScript, Portfolio">
+    <meta name="author" content="Mohamed Elkashef">
+    
+    <!-- Google Fonts: Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome CSS for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <!-- HEADER & NAVBAR -->
+    <header class="header">
+        <div class="container navbar-container">
+            <a href="#home" class="logo" id="logo">Ahmed Defallah</a>
+            
+            <!-- Mobile Menu Toggle Button -->
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            
+            <nav class="nav-menu" id="navMenu">
+                <ul>
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME SECTION -->
+        <section id="home" class="home-section">
+            <div class="container home-container">
+                <div class="home-content">
+                    <p class="home-greeting">HI There, I'm</p>
+                    <h1 class="home-name">Ahmed Defallah</h1>
+                    <h2 class="home-title">Frontend web developer</h2>
+                    
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/ahmed.deifallah.158966" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/abo_defallah?igsh=MWxtcmNlNDAwdWN4cA==" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://ahmaddef088-sys.github.io/AHMED/" target="_blank" rel="noopener" aria-label="Github"><i class="fab fa-github"></i></a>
+                        
+                    </div>
+                    
+                    <a href="#about" class="btn btn-about">
+                        <span>About Me</span>
+                        <i class="fas fa-arrow-down btn-icon"></i>
+                    </a>
+                </div>
+                
+
+                <div class="home-image-wrapper">
+                    <div class="avatar-backdrop"></div>
+                    <div class="avatar-container">
+                        <!-- User will place avatar.png here manually. Showing a styled placeholder shape. -->
+                        <img src="./phtoto/ahmed.jpg" alt="Mohamed Elkashef" class="avatar-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="avatar-placeholder" style="display: none;">
+                            <i class="fas fa-user-circle"></i>
+                            <span>Add avatar.png</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <h3>I'm <span class="text-highlight">Ahmed Defallah</span>, a Web developer</h3>
+                        <p>I'm a front-end web developer with a strong passion for creating visually appealing and user-friendly web applications. I am very passionate about improving my coding skills & developing applications & websites.</p>
+                        <p>I have also gained a solid foundation in HTML, CSS, and JavaScript. I am always eager to learn new technologies and techniques to enhance my skillset.</p>
+                    </div>
+                    
+                    <div class="about-details">
+                        <div class="detail-row">
+                            <span class="detail-label">Age:</span>
+                            <span class="detail-value">19</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Email:</span>
+                            <span class="detail-value"> ahmaddef088@gmail.com</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">Place:</span>
+                            <span class="detail-value">6 October - Egypt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- SKILLS & ABILITIES CONTAINER (within the About section context, dark background) -->
+            <div class="skills-wrapper">
+                <div class="container">
+                    <h3 class="skills-title"><i class="fas fa-laptop-code"></i> Skills & Abilities</h3>
+                    <div class="skills-grid">
+                        <!-- HTML 5 -->
+                        <div class="skill-card">
+                            <div class="skill-icon html-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <h4 class="skill-name">HTML 5</h4>
+                        </div>
+                        <!-- CSS 3 -->
+                        <div class="skill-card">
+                            <div class="skill-icon css-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <h4 class="skill-name">CSS 3</h4>
+                        </div>
+                        <!-- JavaScript -->
+                        <div class="skill-card">
+                            <div class="skill-icon js-icon">
+                                <i class="fab fa-js"></i>
+                            </div>
+                            <h4 class="skill-name">JavaScript</h4>
+                        </div>
+                        <!-- Github -->
+                        <div class="skill-card">
+                            <div class="skill-icon github-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <h4 class="skill-name">Github</h4>
+                        </div> 
+                       
+                      
+        </section>
+
+        <!-- SERVICES SECTION -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title"><i class="fas fa-desktop"></i> My Services</h2>
+                
+                <div class="services-grid">
+                    <!-- Service 1: Web Development -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper web-dev-service">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3 class="service-title">Web Development</h3>
+                        <p class="service-description">I can build a website by using HTML, CSS, and JavaScript</p>
+                    </div>
+                    
+                    <!-- Service 2: Responsive Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper responsive-service">
+                        <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">Responsive Design</h3>
+                        <p class="service-description">Your website will be 100% responsive for all devices: Tablets and Smart phones.</p>
+                    </div>
+                    
+                    <!-- Service 3: Creative Design -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper creative-service">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                        <h3 class="service-title">Creative Design</h3>
+                        <p class="service-description">I can edit your current website by adding a new content to make it much better.</p>
+                    </div>
+                    
+                    <!-- Service 4: Web Ideas -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper ideas-service">
+                            <i class="far fa-lightbulb"></i>
+                        </div>
+                        <h3 class="service-title">Web Ideas</h3>
+                        <p class="service-description">I could turn your ideas into a real projects with high quality.</p>
+                    </div>
+                    
+                    <!-- Service 5: Retouch -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper retouch-service">
+                            <i class="fas fa-magic"></i>
+                        </div>
+                        <h3 class="service-title">Retouch</h3>
+                        <p class="service-description">I can help you by redesigning your current website to look much better.</p>
+                    </div>
+                    
+                    <!-- Service 6: Support -->
+                    <div class="service-card">
+                        <div class="service-icon-wrapper support-service">
+                            <i class="far fa-comments"></i>
+                        </div>
+                        <h3 class="service-title">Support</h3>
+                        <p class="service-description">Support is available if you wanna make any changes for your website after delivering it.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+         <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="container">
+                <h2 class="section-title">
+                    <i class="fa-solid fa-laptop-code"></i> My & <span class="text-highlight">Portfolio</span>
+                </h2>
+        
+                <div class="portfolio-grid">
+                    <!-- Project 1 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/food_website.jpg" alt="Food Website" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Food Website</h3>
+                            <a href="file:///C:/Users/dell/Desktop/food%20website/index.html" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+        
+                    <!-- Project 2 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/foot_lover.jpg" alt="Food Lover Restaurant" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Food Lover Restaurant</h3>
+                            <a href="file:///C:/Users/dell/Desktop/foot%20lover/index.html" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+        
+                    <!-- Project 3 -->
+                    <div class="portfolio-card">
+                        <div class="portfolio-image-container">
+                            <div class="browser-header">
+                                <span class="browser-dot dot-red"></span>
+                                <span class="browser-dot dot-yellow"></span>
+                                <span class="browser-dot dot-green"></span>
+                            </div>
+                            <img src="./phtoto/netflix_website.jpg" alt="Netflix Clone" class="portfolio-img">
+                        </div>
+                        <div class="portfolio-info">
+                            <h3 class="portfolio-title">Netflix Website</h3>
+                            <a href="file:///C:/Users/dell/Desktop/Nerflix%20website/Nerflix-website-main/index.html" target="_blank" rel="noopener" class="portfolio-link">Visit Website</a>
+                        </div>
+                    </div>
+
+                            <!-- Project 4 -->
+                            <div class="portfolio-card">
+                                <div class="portfolio-image-container">
+                                    <div class="browser-header">
+                                        <span class="browser-dot dot-red"></span>
+                                        <span class="browser-dot dot-yellow"></span>
+                                        <span class="browser-dot dot-green"></span>
+                                    </div>
+                                    <img src="./phtoto/coffee-hero-section.png" alt="Coffee Website" class="portfolio-img">
+                                </div>
+                                <div class="portfolio-info">
+                                    <h3 class="portfolio-title">Coffee Website</h3>
+                                    <a href="file:///C:/Users/dell/Desktop/Coffee%20Website/index.html" target="_blank" rel="noopener"
+                                        class="portfolio-link">Visit Website</a>
+                                </div>
+                            </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+       
+
+        <!-- CONTACT SECTION -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <h2 class="section-title"><i class="far fa-paper-plane"></i> Contact Me</h2>
+        
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Get In Touch</h3>
+                        <p>Have an exciting project you want to discuss? Or simply want to say hello? Drop me a message and I'll
+                            get back to you as soon as possible.</p>
+        
+                        <div class="contact-details-list">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span>Email</span>
+                                    <a href="mailto:ahmaddef088@gmail.com">ahmaddef088@gmail.com</a>
+                                </div>
+                            </div>
+        
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-text">
+                                    <span>Location</span>
+                                    <p>6 October - Egypt</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                placeholder="Type your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-submit">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane btn-icon"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        </main>
+
+
+
+
+       
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <p class="copyright">&copy; 2026 Ahmed Defallah. All Rights Reserved.</p>
+            <div class="footer-socials">
+                <a href="https://facebook.com" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
